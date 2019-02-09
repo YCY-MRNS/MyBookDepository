@@ -1,0 +1,105 @@
+.all {
+    width: 1200px;
+    position: relative;
+    padding: 0 60px 0 60px;
+}
+
+.all .book-details {
+    width: 1000px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.all .book-details .photo {
+    float: left;
+    width: 25%;
+    height: 100%;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.all .book-details .photo img {
+    width: 70%;
+    margin-top: 14%;
+}
+
+.all .book-details .text {
+    width: 74%;
+    overflow: hidden;
+    float: right;
+}
+
+.all .book-details .text .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.all .book-details .text .title span {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    background-color: mediumseagreen;
+}
+
+.all .book-details .text .price {
+    color: #333333;
+    font-size: 12px;
+    height: 80px;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.all .book-details .text .price a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff2832;
+}
+
+.all .book-details .text .price span {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 0 5px 0 5px;
+    background-color: #ff2832;
+}
+
+
+.all .book-details .text .info p {
+    display: inline-block;
+    text-align: justify;
+    text-align-last: justify;
+    width: 60px;
+}
+
+.all .book-details .text .info div {
+    margin: 0 0 10px 0;
+    color: grey;
+    font-size: 14px;
+}
+
+.all .book-details .text .info a {
+    margin: 0 0 0 10px;
+    color: grey;
+}
+
+.all .book-details .btn a {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.btn .nowToPlay {
+    color: #fff;
+    background-color: #ff2832;
+}
+
+.btn .toCart {
+    border: 1px solid #ff2832;
+    background-color: #ffedee;
+    color: #ff2832;
+}

@@ -1,14 +1,11 @@
 package com.ycy.mybook.utils;
 
 import com.ycy.mybook.domian.Book;
-import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import javax.servlet.jsp.PageContext;
-import javax.swing.plaf.SpinnerUI;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -19,7 +16,9 @@ import java.util.List;
  * @author: ChangYue
  * @create: 2019-01-27 11:31
  */
+
 public class WebJsoupUtils {
+
     private static List<Book> bookList = new ArrayList<>();
     private static List<Book> bookLists= new ArrayList<>();
 
@@ -61,7 +60,7 @@ public class WebJsoupUtils {
                         double price = getDigitalWithStr(priceStr);
                         String published = getData(publishedStr);
 
-                        book = new Book(title, author, content, href, type, img, published, press, price, 0, 100);
+                        book = new Book(title, author, content, url, type, img, published, press, price, 0, 100);
                         bookLists.add(book);
                     }
                 }

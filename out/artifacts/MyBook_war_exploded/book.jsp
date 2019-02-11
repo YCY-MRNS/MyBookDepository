@@ -22,6 +22,7 @@
         })
     });
 
+
     $(function () {
         $("#btn-toSomePage").click(function () {
             var serializeVal = $(":hidden").serialize();
@@ -40,10 +41,11 @@
 
 
 </script>
+
 <body>
 
-
 <div class="page-slide">
+
     <div class="user-nav-warp">
         <ul class="left-nav">
             <li><a href="#" class="fa fa-home" style="font-size: 2.5rem"></a></li>
@@ -305,6 +307,8 @@
             </ul>
         </section>
     </div>
+
 </div>
+
 </body>
 </html>

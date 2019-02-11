@@ -1,0 +1,235 @@
+/*top nav*/
+.head-wrap {
+    height: 5.5rem;
+    color: #fff;
+    background-color: #4c394e;
+    padding: 1rem;
+}
+
+.head-wrap h2 {
+    padding: .5rem 2rem;
+
+}
+
+
+/*内容区*/
+.content-wrap {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+}
+
+.content-wrap .btn {
+    display: inline-block;
+    width: 12%;
+    height: 4rem;
+    line-height: 4rem;
+    color: #ffffff;
+    min-width: 14rem;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    border-radius: .5rem;
+    text-align: center;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+/*左边的表单提交区*/
+.content-wrap .content-left {
+    width: 70%;
+    padding: 0 1rem;
+}
+
+.content-wrap .content-left .head-process {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content-wrap .content-left .head-process span {
+    width: 50%;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.content-wrap .content-left .head-process .process-step-1 {
+    position: relative;
+    background-color: #10bbd5;
+    color: #ffffff;
+}
+
+.content-wrap .content-left .head-process .process-step-1::after {
+    content: " ";
+    border-left: 2.7rem solid transparent;
+    border-right: 2.7rem solid #10bbd5;
+    border-bottom: 2.7rem solid transparent;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    right: -1.6rem;
+    z-index: 9;
+    top: -.3rem;
+}
+
+.content-wrap .content-left .head-process .process-step-2 {
+    background-color: #e7e7e7;
+    color: #333333;
+}
+
+.content-wrap .content-left .checkout-info {
+    width: 100%;
+    padding: 2rem 0 0 0;
+}
+
+
+.content-wrap .content-right .basket-card,
+.content-wrap .content-left .checkout-info .user-form {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+.content-wrap .content-left .checkout-info .user-form {
+    padding: 1rem;
+}
+
+.content-wrap .content-left .checkout-info .user-form form {
+    margin: 1rem 0;
+}
+
+
+.content-wrap .content-left .checkout-info .user-form form p {
+    color: rgba(0, 0, 0, .5);
+    margin-bottom: 1rem;
+}
+
+.content-wrap .content-left .checkout-info .user-form form label {
+    font-size: 1.4rem;
+}
+
+.content-wrap .content-left .checkout-info .user-form form label span {
+    color: #ff2832;
+}
+
+.content-wrap .content-left .checkout-info .user-form form input {
+    width: 90%;
+    height: 3rem;
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin: .5rem 0;
+    padding: 0 0 0 1rem;
+    border-radius: .6rem;
+    outline: none;
+    font-size: 1.8rem;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+}
+
+.content-wrap .content-left .checkout-info .user-form form input:focus {
+    border: 1px solid rgba(0, 0, 0, .8);
+}
+
+.content-wrap .content-left .checkout-info .user-form .form-wrap {
+    margin: 2rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.content-wrap .content-left .checkout-info .user-form .form-wrap select {
+    border: 1px solid #e1e1e1;
+    border-radius: .5rem;
+    height: 3rem;
+    padding: .5rem;
+    outline: none;
+    margin: 1rem 0;
+}
+
+.content-wrap .content-left .checkout-info .user-form .form-wrap .btn-now-pay {
+    border: 0;
+    width: 14rem;
+    background-color: #10bbd5;
+    color: #ffffff;
+    line-height: 0;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+
+/*右边的购物车卡片*/
+.content-wrap .content-right {
+    width: 30%;
+}
+
+/*.content-wrap .content-right .basket-card {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}*/
+
+.content-wrap .content-right .basket-card .card-head {
+    background-color: #ff0072;
+    padding: 1.5rem;
+    color: #ffffff;
+}
+
+.content-wrap .content-right .basket-card .card-head .card-total {
+    position: relative;
+    padding: 1rem 0 0 0;
+}
+
+.content-wrap .content-right .basket-card .card-head .card-total span {
+    font-weight: bold;
+}
+
+.content-wrap .content-right .basket-card .card-head .card-total span:nth-child(2) {
+    position: absolute;
+    right: 0;
+}
+
+.content-wrap .content-right .basket-card .card-info {
+    width: 100%;
+    padding: 2rem;
+}
+
+
+.content-wrap .content-right .basket-card .card-info dl {
+    display: -webkit-flex;
+    display: flex;
+    padding: 1rem 0;
+    border-top: 1px solid #f0f0f0;
+}
+
+.content-wrap .content-right .basket-card .card-info dl:first-child {
+    border: 0;
+
+}
+
+.content-wrap .content-right .basket-card .card-info dl dt {
+    width: 50%;
+    font-weight: bold;
+}
+
+.content-wrap .content-right .basket-card .card-info dl dd {
+    width: 50%;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+

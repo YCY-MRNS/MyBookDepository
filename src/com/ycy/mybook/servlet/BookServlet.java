@@ -1,7 +1,10 @@
 package com.ycy.mybook.servlet;
 
 import com.google.gson.Gson;
-import com.ycy.mybook.domian.*;
+import com.ycy.mybook.domian.Book;
+import com.ycy.mybook.domian.BookPage;
+import com.ycy.mybook.domian.BookWithCondition;
+import com.ycy.mybook.domian.ShoppingCart;
 import com.ycy.mybook.service.BooksService;
 
 import javax.servlet.ServletException;
@@ -12,7 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 

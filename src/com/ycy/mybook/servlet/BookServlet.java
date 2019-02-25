@@ -1,11 +1,9 @@
 package com.ycy.mybook.servlet;
 
 import com.google.gson.Gson;
-import com.ycy.mybook.domian.Book;
-import com.ycy.mybook.domian.BookPage;
-import com.ycy.mybook.domian.BookWithCondition;
-import com.ycy.mybook.domian.ShoppingCart;
+import com.ycy.mybook.domian.*;
 import com.ycy.mybook.service.BooksService;
+import com.ycy.mybook.service.UserService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,6 +18,7 @@ import java.util.Map;
 
 @WebServlet(name = "BookServlet", urlPatterns = {"/bookServlet"})
 public class BookServlet extends HttpServlet {
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String methodName = request.getParameter("method");
@@ -76,6 +75,7 @@ public class BookServlet extends HttpServlet {
         request.getRequestDispatcher("/basket.jsp").forward(request, response);
     }
 
+
     protected void checkout(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/checkout.jsp").forward(request, response);
     }
@@ -83,6 +83,37 @@ public class BookServlet extends HttpServlet {
     protected void toCart(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/basket.jsp").forward(request, response);
     }
+
+    private UserService userService = new UserService();
+
+
+    protected void payment(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String username = request.getParameter("username");
+        String accountId = request.getParameter("card-number");
+
+        String error = "";
+
+        User user = userService.getUser(username);
+        if (user != null) {
+            int cardNumber = user.getAccountId();
+            if (!accountId.trim().equals(cardNumber + "")) {
+                error = "用户名和卡号不匹配！";
+            }
+        }
+
+        if (!error.equals("")) {
+            request.setAttribute("error", error);
+            request.getRequestDispatcher("/checkout.jsp").forward(request, response);
+            return;
+        }
+
+    }
+
+
+    public StringBuffer validateBookNumber(HttpServletRequest request){
+        return null;
+    }
+
 
     protected void addToCart(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String idStr = request.getParameter("id");

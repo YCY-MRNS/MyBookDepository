@@ -1,13 +1,17 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 
 <head>
     <title>支付</title>
+
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/defaultSetting.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/footer-warp.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/checkout-page.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/font/css/font-awesome.min.css">
+
     <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-3.3.1.min.js"></script>
+
 </head>
 
 <body>
@@ -34,10 +38,11 @@
 
             <div class="user-form">
 
-                <form action="" method="post">
+                <form action="bookServlet?method=payment" method="post" name="">
+
                     <h2>1.配送地址</h2>
 
-                    <div class="form-wrap">
+                    <div class="form-wrap delivery-address-form">
 
                         <label for="username"> 名字<span> *</span></label><br>
                         <input type="text" name="username" id="username"><br>
@@ -56,14 +61,14 @@
                         <p>举例：XX路xxx号xx栋xx单元xx楼xx号</p>
 
                         <label for="ZIP">邮编<span> *</span></label><br>
-                        <input type="text" name="ZIP" id="ZIP"><br>
+                        <input type="number" name="ZIP" id="ZIP"><br>
                         <p>举例：40004. 若没有,请忽略.</p>
 
                     </div>
 
                     <h2>2.支付</h2>
 
-                    <div class="form-wrap">
+                    <div class="form-wrap pay-form">
                         <label for="card-type">卡种</label><br>
                         <select name="card-type" id="card-type">
                             <option value="0">请选择</option>
@@ -73,12 +78,14 @@
                         </select><br>
 
                         <label for="card-number">卡号<span> *</span></label><br>
-                        <input type="text" name="card-number" id="card-number"><br>
+                        <input type="number" name="card-number" id="card-number"><br>
+                        <c:if test="${!empty requestScope.error}">
+                            <p class="error">${requestScope.error}</p>
+                        </c:if>
 
                         <input type="submit" value="现在购买" class="btn btn-now-pay">
 
                     </div>
-
 
                 </form>
 
@@ -95,32 +102,35 @@
             <div class="card-head">
                 <h3>我的购物车</h3>
                 <div class="card-total">
-                    <i class="fa fa-shopping-basket"><span> 1 件</span></i>
-                    <span>￥20.50</span>
+                    <i class="fa fa-shopping-basket"><span> ${sessionScope.shoppingCart.bookNum}件</span></i>
+                    <span>￥${sessionScope.shoppingCart.totalPrice}</span>
                 </div>
             </div>
 
             <div class="card-info">
-
-                <dl>
-                    <dt>
-                        <h3>Head First Java</h3>
-                        <p>press</p>
-                        <p>x1</p>
-                    </dt>
-                    <dd>￥20.00</dd>
-                </dl>
+                <c:forEach items="${sessionScope.shoppingCart.items}" var="items">
+                    <dl>
+                        <dt>
+                            <h3>${items.book.title}</h3>
+                            <p>${items.book.author}</p>
+                            <p>${items.book.press}</p>
+                            <p>x ${items.quantity}</p>
+                        </dt>
+                        <dd>￥${items.bookMoney}</dd>
+                    </dl>
+                </c:forEach>
                 <dl>
                     <dt>小计</dt>
-                    <dd>￥20.5</dd>
+                    <dd>￥${sessionScope.shoppingCart.totalPrice}</dd>
                 </dl>
                 <dl>
-                    <dt>税费</dt>
+                    <dt>邮费</dt>
                     <dd>￥0.00</dd>
                 </dl>
                 <dl>
                     <dt>总价</dt>
-                    <dd style="font-size: 1.8rem;color: #ff0072;font-weight: bold">￥20.50</dd>
+                    <dd style="font-size: 1.8rem;color: #ff0072;font-weight: bold">
+                        ￥${sessionScope.shoppingCart.totalPrice}</dd>
                 </dl>
 
             </div>

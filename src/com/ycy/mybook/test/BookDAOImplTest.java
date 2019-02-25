@@ -1,14 +1,12 @@
-package com.ycy.mybook.dao.impl;
+package com.ycy.mybook.test;
 
 import com.ycy.mybook.dao.BookDAO;
+import com.ycy.mybook.dao.impl.BookDAOImpl;
 import com.ycy.mybook.domian.Book;
 import com.ycy.mybook.domian.BookPage;
 import com.ycy.mybook.domian.BookWithCondition;
-import com.ycy.mybook.utils.WebAddressUtils;
-import com.ycy.mybook.utils.WebJsoupUtils;
 import org.junit.Test;
 
-import java.io.IOException;
 import java.util.List;
 
 public class BookDAOImplTest {

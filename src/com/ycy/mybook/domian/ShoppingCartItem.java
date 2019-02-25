@@ -35,9 +35,4 @@ public class ShoppingCartItem {
         quantity++;
     }
 
-    public void reduce() {
-        if (quantity > 0) {
-            quantity--;
-        }
-    }
 }

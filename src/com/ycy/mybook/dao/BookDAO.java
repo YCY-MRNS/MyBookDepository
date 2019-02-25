@@ -7,6 +7,7 @@ import com.ycy.mybook.domian.BookWithCondition;
 import java.util.List;
 
 public interface BookDAO {
+
     public abstract void addBook(Book book);
 
     public abstract Book getSingleBook(int id);
@@ -24,4 +25,5 @@ public interface BookDAO {
 //    public abstract List<Book> getBookWithOderBy(BookWithCondition bwc, int pageSize);
 
     public abstract long getTotalBookNumber(BookWithCondition bwc);
+
 }

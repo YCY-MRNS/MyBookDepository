@@ -123,15 +123,15 @@ public class ShoppingCart {
      *
      * @param book
      */
-    public void reduceItem(Book book) {
-        ShoppingCartItem item = books.get(book.getId());
-        if (item != null) {
-            if (item.getQuantity() > 1) {
-                item.reduce();
-            } else {
-                removeItem(book.getId());
-            }
-        }
-    }
+//    public void reduceItem(Book book) {
+//        ShoppingCartItem item = books.get(book.getId());
+//        if (item != null) {
+//            if (item.getQuantity() > 1) {
+//                item.reduce();
+//            } else {
+//                removeItem(book.getId());
+//            }
+//        }
+//    }
 
 }

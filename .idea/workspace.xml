@@ -7,22 +7,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046e946e-a0fb-4574-96b0-8e1c32a4d0d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/css/checkout-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/AccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/domian/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/domian/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/test/AccountDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ycy/mybook/test/UserDAOImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/angular.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/dao/impl/BookDAOImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCartItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/servlet/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/servlet/BookServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/utils/WebJsoupUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/WEB-INF/classes/com/ycy/mybook/utils/WebJsoupUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/book.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/book.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/css/defaultSetting.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/css/defaultSetting.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/js/jquery-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/MyBook_war_exploded/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BookDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/test/BookDAOImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/dao/impl/BookDAOImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCart.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/domian/ShoppingCartItem.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/servlet/BookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/servlet/BookServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/utils/WebJsoupUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/ycy/mybook/utils/WebJsoupUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/book.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/book.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/checkout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/checkout.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/defaultSetting.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/defaultSetting.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/checkout-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/checkout-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-3.0.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery.min.js" beforeDir="false" />
+    </list>
+    <list id="db5ad2c5-36b7-4fac-8c46-1abb380e14b0" name="validateFromForm" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,37 +55,20 @@
     <favorites_list name="MyBook" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6339678">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="228">
-                  <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web/css/checkout-page.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3059">
-                  <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -73,9 +76,9 @@
         <option value="Interface" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Class" />
-        <option value="JUnit4 Test Class" />
         <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,22 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/db/DButils.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/db/JDBCUtils.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BaseDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/CriteriaBook.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/Book.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/d.jsp" />
-        <option value="$PROJECT_DIR$/web/book-show.html" />
-        <option value="$PROJECT_DIR$/web/font.html" />
-        <option value="$PROJECT_DIR$/web/font-awesome-4.7.0/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/web/error.jsp" />
-        <option value="$PROJECT_DIR$/web/css/book_show_info.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/bookInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCartItem.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java" />
         <option value="$PROJECT_DIR$/web/css/cart.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/shoppingCart.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/top.jsp" />
@@ -136,7 +123,6 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/book.jsp" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/BookPage.java" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/BookWithCondition.java" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/service/BooksService.java" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BookDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/utils/WebAddressUtils.java" />
@@ -151,10 +137,27 @@
         <option value="$PROJECT_DIR$/web/css/basket-page.css" />
         <option value="$PROJECT_DIR$/web/book.jsp" />
         <option value="$PROJECT_DIR$/web/css/defaultSetting.css" />
-        <option value="$PROJECT_DIR$/web/checkout.jsp" />
-        <option value="$PROJECT_DIR$/web/css/checkout-page.css" />
-        <option value="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" />
         <option value="$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/AccountDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/test/BookDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BaseDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/Account.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/test/AccountDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/AccountDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/AccountDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/UserDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/test/UserDAOImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/User.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCartItem.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java" />
+        <option value="$PROJECT_DIR$/web/css/checkout-page.css" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/service/UserSerivce.java" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/service/UserService.java" />
+        <option value="$PROJECT_DIR$/web/checkout.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java" />
       </list>
     </option>
   </component>
@@ -201,6 +204,19 @@
               <item name="MyBook" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MyBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBook" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MyBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyBook" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,7 +235,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/ycy/mybook/utils" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/ycy/mybook/dao/impl" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/NovelN" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -232,25 +248,25 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.ycy.mybook.utils" />
       <recent name="com.ycy.mybook.dao.impl" />
+      <recent name="com.ycy.mybook.utils" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\WEB-INF" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ycy.mybook.domian" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\js" />
       <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web" />
       <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\css" />
       <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\WEB-INF" />
       <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\WEB-INF\css" />
-      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\img" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.ycy.mybook.domian" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web" />
+      <recent name="C:\Users\Administrator\IdeaProjects\MyBook\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -266,65 +282,65 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.72">
+    <configuration name="AccountDAOImplTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycy.mybook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ycy.mybook.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.test.AccountDAOImplTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDAOImplTest.updateBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBook" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ycy.mybook.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ycy.mybook.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.test.AccountDAOImplTest" />
+      <option name="METHOD_NAME" value="updateBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookDAOImplTest.addBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ycy.mybook.dao.impl.*" />
+          <option name="PATTERN" value="com.ycy.mybook.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ycy.mybook.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.dao.impl.BookDAOImplTest" />
+      <option name="PACKAGE_NAME" value="com.ycy.mybook.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.test.BookDAOImplTest" />
       <option name="METHOD_NAME" value="addBook" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookDAOImplTest.getBookWithCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDAOImplTest.getUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBook" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ycy.mybook.dao.impl.*" />
+          <option name="PATTERN" value="com.ycy.mybook.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ycy.mybook.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.dao.impl.BookDAOImplTest" />
-      <option name="METHOD_NAME" value="getBookWithCondition" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookDAOImplTest.getBookWithOderBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ycy.mybook.dao.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ycy.mybook.dao.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.dao.impl.BookDAOImplTest" />
-      <option name="METHOD_NAME" value="getBookWithOderBy" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WebJsoupUtilsTest.getBookInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBook" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ycy.mybook.utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ycy.mybook.utils" />
-      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.utils.WebJsoupUtilsTest" />
-      <option name="METHOD_NAME" value="getBookInfo" />
+      <option name="PACKAGE_NAME" value="com.ycy.mybook.test" />
+      <option name="MAIN_CLASS_NAME" value="com.ycy.mybook.test.UserDAOImplTest" />
+      <option name="METHOD_NAME" value="getUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -348,8 +364,6 @@
     </configuration>
     <configuration name="Tomcat 7.0.72" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.72" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="MyBook:war exploded">
           <settings>
@@ -421,20 +435,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookDAOImplTest.getBookWithCondition" />
-      <item itemvalue="JUnit.BookDAOImplTest.getBookWithOderBy" />
       <item itemvalue="JUnit.BookDAOImplTest.addBook" />
-      <item itemvalue="JUnit.WebJsoupUtilsTest.getBookInfo" />
       <item itemvalue="JUnit.WebJsoupUtilsTest.getBookInfoForBookChina" />
+      <item itemvalue="JUnit.AccountDAOImplTest.get" />
+      <item itemvalue="JUnit.AccountDAOImplTest.updateBalance" />
+      <item itemvalue="JUnit.UserDAOImplTest.getUser" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.72" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDAOImplTest.getUser" />
+        <item itemvalue="JUnit.AccountDAOImplTest.updateBalance" />
+        <item itemvalue="JUnit.AccountDAOImplTest.get" />
         <item itemvalue="JUnit.BookDAOImplTest.addBook" />
         <item itemvalue="JUnit.WebJsoupUtilsTest.getBookInfoForBookChina" />
-        <item itemvalue="JUnit.WebJsoupUtilsTest.getBookInfo" />
-        <item itemvalue="JUnit.BookDAOImplTest.getBookWithCondition" />
-        <item itemvalue="JUnit.BookDAOImplTest.getBookWithOderBy" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +458,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="046e946e-a0fb-4574-96b0-8e1c32a4d0d1" name="Default Changelist" comment="" />
+      <changelist id="db5ad2c5-36b7-4fac-8c46-1abb380e14b0" name="validateFromForm" comment="" />
       <created>1548559484215</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -482,32 +497,20 @@
       <workItem from="1549695353916" duration="108000" />
       <workItem from="1549702560966" duration="2046000" />
       <workItem from="1549789476337" duration="3689000" />
-      <workItem from="1549851447217" duration="6822000" />
+      <workItem from="1549851447217" duration="25944000" />
+      <workItem from="1549899159468" duration="797000" />
     </task>
+    <task id="LOCAL-00001" summary="java web">
+      <created>1549870515866</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549870515866</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WebJsoupUtilsTest_getBookInfoForBookChina - 2019.02.08 at 13h 32m 55s.xml">
-      <configuration name="WebJsoupUtilsTest.getBookInfoForBookChina" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebJsoupUtilsTest_getBookInfoForBookChina - 2019.02.08 at 13h 33m 55s.xml">
-      <configuration name="WebJsoupUtilsTest.getBookInfoForBookChina" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebJsoupUtilsTest_getBookInfoForBookChina - 2019.02.08 at 13h 34m 57s.xml">
-      <configuration name="WebJsoupUtilsTest.getBookInfoForBookChina" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebJsoupUtilsTest_getBookInfoForBookChina - 2019.02.08 at 13h 35m 47s.xml">
-      <configuration name="WebJsoupUtilsTest.getBookInfoForBookChina" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WebJsoupUtilsTest_getBookInfoForBookChina - 2019.02.08 at 13h 37m 13s.xml">
-      <configuration name="WebJsoupUtilsTest.getBookInfoForBookChina" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookDAOImplTest_addBook - 2019.02.08 at 13h 41m 07s.xml">
-      <configuration name="BookDAOImplTest.addBook" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookDAOImplTest_addBook - 2019.02.08 at 13h 45m 03s.xml">
-      <configuration name="BookDAOImplTest.addBook" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookDAOImplTest_addBook - 2019.02.08 at 13h 52m 11s.xml">
       <configuration name="BookDAOImplTest.addBook" configurationId="JUnit" />
     </history-entry>
@@ -517,9 +520,30 @@
     <history-entry file="BookDAOImplTest_addBook - 2019.02.08 at 13h 59m 18s.xml">
       <configuration name="BookDAOImplTest.addBook" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AccountDAOImplTest_get - 2019.02.11 at 17h 48m 00s.xml">
+      <configuration name="AccountDAOImplTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountDAOImplTest_get - 2019.02.11 at 17h 49m 53s.xml">
+      <configuration name="AccountDAOImplTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountDAOImplTest_get - 2019.02.11 at 17h 51m 07s.xml">
+      <configuration name="AccountDAOImplTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountDAOImplTest_get - 2019.02.11 at 17h 51m 45s.xml">
+      <configuration name="AccountDAOImplTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountDAOImplTest_get - 2019.02.11 at 17h 52m 06s.xml">
+      <configuration name="AccountDAOImplTest.get" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountDAOImplTest_updateBalance - 2019.02.11 at 17h 52m 34s.xml">
+      <configuration name="AccountDAOImplTest.updateBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOImplTest_getUser - 2019.02.11 at 18h 05m 34s.xml">
+      <configuration name="UserDAOImplTest.getUser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="339587000" />
+    <option name="totallyTimeSpent" value="359506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,14 +558,14 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.13802083" weight="0.16764276" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.13802083" visible="true" weight="0.22327965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" sideWeight="0.86153847" side_tool="true" weight="0.22620791" />
       <window_info id="Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.8619792" side_tool="true" weight="0.23352855" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294271" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3294271" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.35677084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5297619" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -551,7 +575,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50073206" side_tool="true" weight="0.20703125" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.28125" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.34635416" />
       <window_info anchor="bottom" id="Application Servers" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -564,6 +588,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="java web" />
+    <option name="LAST_COMMIT_MESSAGE" value="java web" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -602,127 +630,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/css/empty-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9580">
-          <caret line="102" column="30" lean-forward="true" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/css/book_show_info.css" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/font/css/font-awesome.css" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/css/index-page.css" />
-    <entry file="file://$PROJECT_DIR$/web/css/book_show_list.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="254" column="22" selection-start-line="254" selection-start-column="22" selection-end-line="254" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="54" column="29" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#907#908#0" expanded="true" />
-            <element signature="e#1481#1482#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="73" column="42" lean-forward="true" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#6484#6648#0" expanded="true" />
-            <element signature="e#6647#6648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/BookPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="98" column="32" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="32" />
-          <folding>
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#391#392#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1173#1174#0" expanded="true" />
-            <element signature="e#1878#1879#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-            <element signature="e#1974#1975#0" expanded="true" />
-            <element signature="e#2035#2036#0" expanded="true" />
-            <element signature="e#2073#2074#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/BookWithCondition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/service/BooksService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jsoup-1.11.3.jar!/org/jsoup/helper/Validate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -772,27 +679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtilsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BookDAOImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -891,48 +781,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/checkout.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebAddressUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="82" column="23" lean-forward="true" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
+        <state relative-caret-position="361">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#select#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#dl#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#dt#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#dl#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#dl#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#dl#3;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dd#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BookDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+        <state relative-caret-position="207">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/test/BookDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -941,11 +834,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/BaseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="333">
+          <caret line="99" column="13" lean-forward="true" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/test/AccountDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/AccountDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/AccountDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/dao/impl/UserDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="52" column="44" lean-forward="true" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/test/UserDAOImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/basket.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="168" column="64" selection-start-line="168" selection-start-column="45" selection-end-line="168" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -956,93 +936,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/basket.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1546">
-          <caret line="140" column="36" lean-forward="true" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+        <state relative-caret-position="335">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2761#2767#0#HTML" expanded="true" />
-            <element signature="e#2767#2773#0#HTML" expanded="true" />
-            <element signature="e#2844#2850#0#HTML" expanded="true" />
-            <element signature="e#2850#2856#0#HTML" expanded="true" />
-            <element signature="n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2959#2965#0#HTML" expanded="true" />
-            <element signature="e#2965#2971#0#HTML" expanded="true" />
-            <element signature="e#3036#3042#0#HTML" expanded="true" />
-            <element signature="e#3042#3048#0#HTML" expanded="true" />
-            <element signature="e#3117#3123#0#HTML" expanded="true" />
-            <element signature="e#3123#3129#0#HTML" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#form#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3748#3754#0#HTML" expanded="true" />
-            <element signature="e#3754#3760#0#HTML" expanded="true" />
-            <element signature="n#li#1;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#span#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4394#4400#0#HTML" expanded="true" />
-            <element signature="n#i#0;n#span#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#p#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#input#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#a#0;n#div#1;n#div#1;n#div#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#a#0;n#div#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#1;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#2;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#section#3;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#2254#2255#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/BookPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1936#1937#0" expanded="true" />
+            <element signature="e#1974#1975#0" expanded="true" />
+            <element signature="e#2035#2036#0" expanded="true" />
+            <element signature="e#2073#2074#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCartItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/ShoppingCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/book.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2508">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="539">
+          <caret line="123" column="61" selection-start-line="123" selection-start-column="53" selection-end-line="123" selection-end-column="61" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#script#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1074,12 +1029,8 @@
             <element signature="n#a#0;n#span#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#3862#3868#0#HTML" expanded="true" />
             <element signature="n#i#0;n#span#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#c:if#0;n#jsp:root#0;n#!!top" expanded="true" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#label#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#select#0;n#label#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1124,50 +1075,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java">
+    <entry file="jar://C:/apache-tomcat-7.0.72/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1960#1976#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebAddressUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="304">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/checkout-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="161" column="15" selection-start-line="161" selection-start-column="15" selection-end-line="161" selection-end-column="15" />
+        <state relative-caret-position="285">
+          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/domian/Book.java">
+    <entry file="file://$PROJECT_DIR$/web/checkout.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="414">
+          <caret line="76" column="59" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
           <folding>
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#2254#2255#0" expanded="true" />
-            <element signature="e#2282#2283#0" expanded="true" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#c:if#1;n#jsp:root#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="true" />
+            <element signature="n#dl#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#dt#0;n#dl#0;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#dl#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#dl#2;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#dl#3;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#dd#0;n#dl#3;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#section#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#section#1;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#section#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#section#3;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/utils/WebJsoupUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ycy/mybook/servlet/BookServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="278">
+          <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
